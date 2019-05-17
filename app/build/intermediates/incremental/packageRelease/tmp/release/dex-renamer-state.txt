@@ -1,4 +1,0 @@
-#Tue May 14 15:42:36 EDT 2019
-base.0=/Users/mac/dev/android-bday-prob/app/build/intermediates/dex/release/mergeDexRelease/out
-path.0=classes.dex
-renamed.0=classes.dex
