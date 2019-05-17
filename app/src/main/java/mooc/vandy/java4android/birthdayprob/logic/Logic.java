@@ -1,8 +1,11 @@
 package mooc.vandy.java4android.birthdayprob.logic;
 
+import android.util.SparseIntArray;
+
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Random;
+
 
 import mooc.vandy.java4android.birthdayprob.ui.OutputInterface;
 
@@ -77,63 +80,40 @@ public class Logic
      */
     public double calculate(int size, int count) {
         // TODO -- add your code heref
-
         int[] birthdays;
         int hitCount = 0;
 
         // run simulations
         for (int i = 0; i < count; i++) {
-
-            birthdays = this.generatePeopleWithBirthday(size);
-
-
-            boolean hasDup = this.hasDuplicateBirthday(birthdays);
+            boolean hasDup = this.hasDuplicateBirthdays(size);
 
             if (hasDup) {
                 hitCount++;
             }
-
         }
-
-
-        double result = (double)hitCount/(double)count;
-
-        return result;
-
+        return (double)hitCount/count*100.0;
     }
 
 
     // TODO - add your code here
-    private boolean hasDuplicateBirthday(int[] birthdays) {
-        Integer ct;
-        int birthDate;
-        HashMap<Integer, Integer> dupMap = new HashMap<Integer, Integer>();
-        for(int i = 0; i < birthdays.length; i++) {
-            ct = (Integer) dupMap.get(i);
+    private boolean hasDuplicateBirthdays(int size) {
 
+        SparseIntArray dupTest = new SparseIntArray();
 
-            if (ct != null) {
+        int birthday;
+        for (int i=0; i < size; i++) {
+            birthday = getRandomNumber(364);
+            if (dupTest.get(birthday) != 0) {
                 return true;
             } else {
-                dupMap.put(birthdays[i], 1);
+                dupTest.put(birthday, 1);
             }
         }
-        return false;
+       return false;
     }
 
-
-    private int[] generatePeopleWithBirthday(int size) {
-        int[] birthdays = new int[size];
-
-        for (int i=0; i < size; i++) {
-            birthdays[i] = getRandomNumber(i, 366);
-        }
-        return birthdays;
-    }
-
-    private int getRandomNumber(int seed, int size) {
+    private int getRandomNumber(int size) {
         Random rnd = new Random();
-        rnd.setSeed(seed);
-        return rnd.nextInt(size);
+        return rnd.nextInt(size)+1;
     }
 }
