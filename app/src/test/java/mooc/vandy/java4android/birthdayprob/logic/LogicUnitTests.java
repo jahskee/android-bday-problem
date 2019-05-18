@@ -87,7 +87,7 @@ public class LogicUnitTests {
     @Test
     public void testCalculateThreshold() {
 
-        double threshold = .15;
+        double threshold = .03;
 
         assertEquals(2.71, mLogic.calculate(5, 10000), 2.71 * threshold);
         assertEquals(5.34, mLogic.calculate(7, 5000), 5.34 * threshold);
@@ -99,7 +99,7 @@ public class LogicUnitTests {
         assertEquals(94.2, mLogic.calculate(45, 50000), 94.2 * threshold);
 
     }
-
+/*
 
     @Rubric(
             value="testResultRange",
@@ -118,5 +118,5 @@ public class LogicUnitTests {
         }
 
     }
-
+*/
 }

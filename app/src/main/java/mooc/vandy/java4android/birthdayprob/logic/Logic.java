@@ -75,7 +75,6 @@ public class Logic
         Long diff = System.currentTimeMillis() - tsLong1;
         mOut.println("Overall run time: "+diff.toString()+" ms\n\n");
 
-
         // report results
         mOut.println("For a group of " + groupSize + " people, the percentage");
         mOut.println("of times that two people share the same birthday is");
@@ -93,8 +92,11 @@ public class Logic
         int hitCount = 0;
 
         // run simulations
+        Random rnd = new Random();
         for (int i = 0; i < count; i++) {
-           if(this.hasDuplicateBirthdays(size, i)){
+
+            rnd.setSeed(i+1);
+           if(this.hasDuplicateBirthdays(size, rnd)){
                hitCount++;
            }
         }
@@ -107,12 +109,12 @@ public class Logic
     private static List dupList = new ArrayList<Integer>();
 
     private static int birthday;
-    private boolean hasDuplicateBirthdays(int size, int simulation) {
+    private boolean hasDuplicateBirthdays(int size, Random rnd) {
         if(dupList.size()!=0)dupList.clear();
-        Random rnd = new Random();
-        rnd.setSeed(simulation+1);
+
         for (int i=0; i < size; i++) {
-            birthday = rnd.nextInt(363)+1;
+            birthday = rnd.nextInt(365);
+
             //check if birthday already exist in array
            if (dupList.contains(birthday)) return true;
            dupList.add(birthday);
