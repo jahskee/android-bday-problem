@@ -4,9 +4,9 @@ ADDED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/161861a5fc96987c47b25ac6a1a0b6e3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b5de2b3f4947a434816d73a5d37e6ce6/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/03b5be473c25b88a8d26c692567edee8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6191d43b8ab2a0d2beba1240df2fe445/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/94736191aa8fc537dc546cd9849d009e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/255c43ab70234a6d3e036f6656e489c7/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1-20:12
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:1-20:12
@@ -26,12 +26,12 @@ INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/161861a5fc96987c47b25ac6a1a0b6e3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/161861a5fc96987c47b25ac6a1a0b6e3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b5de2b3f4947a434816d73a5d37e6ce6/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b5de2b3f4947a434816d73a5d37e6ce6/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/03b5be473c25b88a8d26c692567edee8/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/03b5be473c25b88a8d26c692567edee8/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6191d43b8ab2a0d2beba1240df2fe445/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6191d43b8ab2a0d2beba1240df2fe445/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/94736191aa8fc537dc546cd9849d009e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/94736191aa8fc537dc546cd9849d009e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/255c43ab70234a6d3e036f6656e489c7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/255c43ab70234a6d3e036f6656e489c7/AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml:9:9-35
 	android:label
@@ -60,12 +60,12 @@ uses-sdk
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/161861a5fc96987c47b25ac6a1a0b6e3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/161861a5fc96987c47b25ac6a1a0b6e3/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b5de2b3f4947a434816d73a5d37e6ce6/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/b5de2b3f4947a434816d73a5d37e6ce6/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/03b5be473c25b88a8d26c692567edee8/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/03b5be473c25b88a8d26c692567edee8/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6191d43b8ab2a0d2beba1240df2fe445/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/6191d43b8ab2a0d2beba1240df2fe445/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/94736191aa8fc537dc546cd9849d009e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/94736191aa8fc537dc546cd9849d009e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/255c43ab70234a6d3e036f6656e489c7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/255c43ab70234a6d3e036f6656e489c7/AndroidManifest.xml:20:5-43
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mac/dev/android-bday-prob/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

@@ -101,7 +101,6 @@ public class LogicUnitTests {
     }
 
 
-
     @Rubric(
             value="testResultRange",
             goal="The goal of this evaluation is to test ResultRange",

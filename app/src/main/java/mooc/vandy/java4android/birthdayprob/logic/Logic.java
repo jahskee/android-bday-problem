@@ -94,23 +94,23 @@ public class Logic
 
         // run simulations
         for (int i = 0; i < count; i++) {
-           if(this.hasDuplicateBirthdays(size)){
+           if(this.hasDuplicateBirthdays(size, i)){
                hitCount++;
            }
         }
-       double result = (hitCount * 100.0)/count;
-        return result;
+       return (hitCount * 100.0)/count;
     }
 
 
     // TODO - add your code here
-    private static Random rnd = new Random();
+   // private static Random rnd = new Random();
     private static List dupList = new ArrayList<Integer>();
 
     private static int birthday;
-    private boolean hasDuplicateBirthdays(int size) {
+    private boolean hasDuplicateBirthdays(int size, int simulation) {
         if(dupList.size()!=0)dupList.clear();
-
+        Random rnd = new Random();
+        rnd.setSeed(simulation+1);
         for (int i=0; i < size; i++) {
             birthday = rnd.nextInt(363)+1;
             //check if birthday already exist in array

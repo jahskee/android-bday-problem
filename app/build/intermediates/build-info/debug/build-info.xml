@@ -5,41 +5,36 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="FIELD_TYPE_CHANGE"
-    plugin-version="3.4.0"
-    timestamp="1558168175410"
+    plugin-version="3.4.1"
+    timestamp="1558202160094"
     token="7733072418495258532"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="49" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
-
-    <artifact
-        location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1558076130920"
+        timestamp="1558178137329"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -48,10 +43,10 @@
             location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -71,12 +66,16 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1558168175410"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1558201955689"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1558202160094"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
