@@ -3,6 +3,8 @@ package mooc.vandy.java4android.birthdayprob.logic;
 import android.util.SparseIntArray;
 
 import java.math.BigDecimal;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -44,6 +46,8 @@ public class Logic
      * It assigns the passed in [MainActivity] instance
      * (which implements [OutputInterface]) to 'out'
      */
+
+
     public Logic(OutputInterface out){
         mOut = out;
     }
@@ -65,7 +69,12 @@ public class Logic
             return;
         }
 
+        long tsLong1 = System.currentTimeMillis();
         double percent = calculate(groupSize, simulationCount);
+
+        Long diff = System.currentTimeMillis() - tsLong1;
+        mOut.println("Overall run time: "+diff.toString()+" ms\n\n");
+
 
         // report results
         mOut.println("For a group of " + groupSize + " people, the percentage");
@@ -80,40 +89,35 @@ public class Logic
      */
     public double calculate(int size, int count) {
         // TODO -- add your code heref
-        int[] birthdays;
+
         int hitCount = 0;
 
         // run simulations
         for (int i = 0; i < count; i++) {
-            boolean hasDup = this.hasDuplicateBirthdays(size);
-
-            if (hasDup) {
-                hitCount++;
-            }
+           if(this.hasDuplicateBirthdays(size)){
+               hitCount++;
+           }
         }
-        return (double)hitCount/count*100.0;
+       double result = (hitCount * 100.0)/count;
+        return result;
     }
 
 
     // TODO - add your code here
+    private static Random rnd = new Random();
+    private static List dupList = new ArrayList<Integer>();
+
+    private static int birthday;
     private boolean hasDuplicateBirthdays(int size) {
+        if(dupList.size()!=0)dupList.clear();
 
-        SparseIntArray dupTest = new SparseIntArray();
-
-        int birthday;
         for (int i=0; i < size; i++) {
-            birthday = getRandomNumber(364);
-            if (dupTest.get(birthday) != 0) {
-                return true;
-            } else {
-                dupTest.put(birthday, 1);
-            }
+            birthday = rnd.nextInt(363)+1;
+            //check if birthday already exist in array
+           if (dupList.contains(birthday)) return true;
+           dupList.add(birthday);
         }
        return false;
     }
 
-    private int getRandomNumber(int size) {
-        Random rnd = new Random();
-        return rnd.nextInt(size)+1;
-    }
 }

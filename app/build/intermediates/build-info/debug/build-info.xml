@@ -5,15 +5,15 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="FIELD_TYPE_CHANGE"
     plugin-version="3.4.0"
-    timestamp="1558111337173"
+    timestamp="1558168175410"
     token="7733072418495258532"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="47" />
+        duration="49" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -71,8 +71,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1558111337173"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1558168175410"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/mac/dev/android-bday-prob/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
